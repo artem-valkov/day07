@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans');
+
+$pink: #fa5c65;
+$gray: #314a5b;
+
+* {
+  margin: 0;
+}
+
+.btn__more {
+  color: $pink;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header {
+  width: auto;
+  background-image: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/src/images/header-bg-min.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1075px;
+  .top-bar {
+    width: 68%;
+    height: 75px;
+    margin: auto;
+  }
+  .top-bar__logo {
+    float: left;
+    width: 141px;
+    height: 75px;
+    background-color: $pink;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+  }
+  .top-bar__logo-text {
+    font-size: 20px;
+    padding-top: 44px;
+    color: white;
+    font-family: Domine, sans-serif;
+  }
+  .top-bar__menu {
+    float: right;
+    list-style-type: none;
+    word-spacing: 30px;
+  }
+  .top-bar__menu-link {
+    display: inline;
+    color: white;
+    a {
+      color: #263742;
+      font-family: Montserrat, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 85px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+  .header-text {
+    padding-top: 250px;
+    width: 68%;
+    margin: auto;
+    .header__big-text {
+      width: auto;
+      height: 142px;
+      color: $gray;
+      font-family: Montserrat, sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 53px;
+      text-transform: uppercase;
+      letter-spacing: -1.44px;
+    }
+    .header__small-text {
+      color: $gray;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 26px;
+      margin-bottom: 41px;
+    }
+    .header__btn {
+      width: 172px;
+      height: 64px;
+      background-color: $pink;
+      border-radius: 10px;
+      border: none;
+      color: #ffffff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 48.38px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.main {
+  padding-top: -55px;
+  width: 70%;
+  margin: auto;
+
+  .top-block {
+    display: block;
+    padding: 20px;
+
+    .skills {
+      display: inline-block;
+    }
+    .skills__big-text {
+      color: $gray;
+      font-family: Montserrat, sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+    }
+    .skills__small-text {
+      width: 257px;
+      height: 60px;
+      color: #9aa0ab;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-top: 24px;
+      margin-bottom: 29px;
+    }
+  }
+  .mid-block {
+    display: inline-block;
+    padding: 20px;
+
+    .mid-block__macbook {
+      float: left;
+    }
+    .mid-block__text {
+      float: right;
+      width: 370px;
+      margin-top: 10px;
+      margin-left: 50px;
+    }
+    .portfolio__text-big {
+      width: 233px;
+      height: 30px;
+      color: $gray;
+      font-family: Montserrat, sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 46px;
+      text-transform: uppercase;
+      letter-spacing: -1.2px;
+    }
+    .portfolio__text-normal {
+      width: 223px;
+      height: 17px;
+      color: $gray;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-top: 17px;
+      margin-bottom: 29px;
+    }
+    .portfolio__text-small {
+      width: 367px;
+      height: 104px;
+      color: #9aa0ab;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-bottom: 45px;
+    }
+  }
+  .our-team__top-text {
+    .our-team__big-text {
+      height: 24px;
+      color: $gray;
+      font-family: Montserrat, sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 53.86px;
+      text-transform: uppercase;
+      letter-spacing: -0.48px;
+      margin-bottom: 16px;
+    }
+    .our-team__small_text {
+      width: 214px;
+      height: 17px;
+      color: #9aa0ab;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  .our-team {
+    display: block;
+
+    .person {
+      display: inline-block;
+    }
+    .person__image {
+      float: left;
+    }
+    .person__block {
+      display: inline-block;
+
+      .person__name {
+        width: 58px;
+        height: 17px;
+        color: #314a5b;
+        font-family: Montserrat, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 53.86px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+      }
+      .person__title {
+        width: 99px;
+        height: 15px;
+        color: #f0454c;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 11px;
+        margin-bottom: 14px;
+      }
+      .person__text {
+        width: 143px;
+        height: 35px;
+        color: #9aa0ab;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.footer {
+  width: 68%;
+  margin: auto;
+  border-top: 1px solid;
+  color: #b9c0c6;
+  margin-top: 30px;
+
+  .footer__icons {
+    list-style-type: none;
+    padding-top: 30px;
+  }
+  .footer__link {
+    display: inline;
+    float: left;
+    padding-right: 40px;
+  }
+  .footer__copyright {
+    float: right;
+    height: 14px;
+    color: #b9c0c6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-top: -30px;
+  }
+}
+
+.red-dot {
+  color: $pink;
+}
+
+.black-dot {
+  color: $gray;
+}
