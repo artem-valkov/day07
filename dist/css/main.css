@@ -1,235 +1,329 @@
-@import url("https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans");
-* {
-  margin: 0; }
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans');
 
-.btn__more {
+* {
+  margin: auto;
+}
+
+.header {
+  background: url("/images/header-bg-min.png") no-repeat;
+  background-size: contain;
+  width: 1370px;
+  height: 1057px;
+  position: relative;
+}
+
+.top-bar .logo {
+  width: 141px;
+  height: 75px;
+  text-align: center;
+  margin-left: 218px;
+  background-color: #fa5c65;
+  border-radius: 0 0 15px 15px;
+  position: absolute;
+}
+
+.top-bar .logo-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 15px;
+  position: absolute;
+  top: 24px;
+  line-height: 64px;
+  font-family: Domine, serif;
+}
+
+.top-bar .navbar {
+  display: inline;
+  line-height: 85px;
+  position: absolute;
+  right: 201px;
+  top: -10px;
+}
+
+.navbar .links {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.header .top-bar .navbar .links a {
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  padding-left: 25px;
+  color: #263742;
+}
+
+.header .main-text .header-big-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -1.44px;
+  color: #314a5b;
+  position: absolute;
+  top: 380px;
+  left: 218px;
+}
+
+.header .main-text .header-small-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 85px;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  color: #263742;
+  position: absolute;
+  top: 548px;
+  left: 220px;
+}
+
+.header .main-text .btn {
+  width: 172px;
+  height: 64px;
+  background-color: #fa5c65;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 610px;
+  left: 218px;
+  border: 0;
+  text-decoration: none;
+}
+
+.main {
+  height: 1111px;
+  width: 1370px;
+  position: relative;
+}
+
+.main .block {
+  width: 258px;
+  height: 169px;
+  position: absolute;
+  top: 82px;
+}
+
+.main .block:nth-child(1) {
+  left: 219px;
+}
+
+.main .block:nth-child(2) {
+  left: 538px;
+}
+
+.main .block:nth-child(3) {
+  right: 256px;
+}
+
+.main .block .block-big-text {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #465065;
+}
+
+.main .block .block-small-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: #9aa0ab;
+  padding: auto;
+}
+
+.main .block .block-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
   color: #fa5c65;
+}
+
+.block-macbook {
+  width: 398px;
+  height: 301px;
+  position: absolute;
+  top: 359px;
+  left: 219px;
+}
+
+.block-mid {
+  width: 370px;
+  height: 252px;
+  position: absolute;
+  right: 305px;
+  top: 378px;
+}
+
+.block-mid-big-text {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-transform: uppercase;
+  letter-spacing: -1.2px;
+  font-family: Montserrat, sans-serif;
+  color: #314a5b;
+}
+
+.block-mid-normal-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #314a5b;
+  bottom: 30px;
+}
+
+.block-mid-small-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: #9aa0ab;
+}
+
+.our-team {
+  width: 224px;
+  height: 57px;
+  position: absolute;
+  top: 765px;
+  left: 219px;
+}
+
+.block-bottom-big-text {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: -0.48px;
+  font-family: Montserrat, sans-serif;
+  color: #314a5b;
+}
+
+.block-bottom-small-text {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #9aa0ab;
+}
+
+.block-about {
+  width: 280px;
+  height: 120px;
+  position: absolute;
+  bottom: 128px;
+  display: inline-block;
+}
+
+.block-about:nth-child(2) {
+  left: 218px;
+}
+
+.block-about:nth-child(3) {
+  left: 539px;
+}
+
+.block-about:nth-child(4) {
+  right: 228px;
+}
+
+.about-img {
+  float: left;
+  margin-right: 10px;
+}
+
+.about-big-text {
+  color: #314a5b;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: -0.33px;
+}
+
+.about-middle-text {
+  color: #f0454c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.about-small-text {
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer {
+  width: 1370px;
+  height: 94px;
+  position: relative;
+}
+
+.footer-line {
+  width: 940px;
+  height: 1px;
+  position: absolute;
+  left: 219px;
+  bottom: 92px;
+  background-color: #e6eaed;
+}
+
+.social-icons {
+  width: 172px;
+  position: absolute;
+  left: 180px;
+  bottom: 41px;
+}
+
+.social-links {
+  list-style-type: none;
+  display: inline;
+  padding-right: 22px;
+}
+
+.copyright-text {
+  position: absolute;
+  right: 211px;
+  top: 2px;
+  color: #b9c0c6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.black-dot {
+  color: #314a5b;
+}
+
+.red-dot {
+  color: #fa5c65;
+}
+
+.arrow {
+  padding-left: 3px;
+}
+
+.more {
+  color: #f0454c;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
-  text-decoration: none; }
-
-.header {
-  width: auto;
-  background-image: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/src/images/header-bg-min.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 1075px; }
-  .header .top-bar {
-    width: 68%;
-    height: 75px;
-    margin: auto; }
-  .header .top-bar__logo {
-    float: left;
-    width: 141px;
-    height: 75px;
-    background-color: #fa5c65;
-    border-radius: 0 0 10px 10px;
-    text-align: center; }
-  .header .top-bar__logo-text {
-    font-size: 20px;
-    padding-top: 44px;
-    color: white;
-    font-family: Domine, sans-serif; }
-  .header .top-bar__menu {
-    float: right;
-    list-style-type: none;
-    word-spacing: 30px; }
-  .header .top-bar__menu-link {
-    display: inline;
-    color: white; }
-    .header .top-bar__menu-link a {
-      color: #263742;
-      font-family: Montserrat, sans-serif;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 85px;
-      text-transform: uppercase;
-      text-decoration: none; }
-  .header .header-text {
-    padding-top: 250px;
-    width: 68%;
-    margin: auto; }
-    .header .header-text .header__big-text {
-      width: auto;
-      height: 142px;
-      color: #314a5b;
-      font-family: Montserrat, sans-serif;
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 53px;
-      text-transform: uppercase;
-      letter-spacing: -1.44px; }
-    .header .header-text .header__small-text {
-      color: #314a5b;
-      font-family: "Open Sans", sans-serif;
-      font-size: 20px;
-      font-weight: 400;
-      margin-top: 26px;
-      margin-bottom: 41px; }
-    .header .header-text .header__btn {
-      width: 172px;
-      height: 64px;
-      background-color: #fa5c65;
-      border-radius: 10px;
-      border: none;
-      color: #ffffff;
-      font-family: "Open Sans", sans-serif;
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 48.38px;
-      text-transform: uppercase; }
-
-.main {
-  padding-top: -55px;
-  width: 70%;
-  margin: auto; }
-  .main .top-block {
-    display: block;
-    padding: 20px; }
-    .main .top-block .skills {
-      display: inline-block; }
-    .main .top-block .skills__big-text {
-      color: #314a5b;
-      font-family: Montserrat, sans-serif;
-      font-size: 26px;
-      font-weight: 700;
-      line-height: 26px;
-      text-transform: uppercase; }
-    .main .top-block .skills__small-text {
-      width: 257px;
-      height: 60px;
-      color: #9aa0ab;
-      font-family: "Open Sans", sans-serif;
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 22px;
-      margin-top: 24px;
-      margin-bottom: 29px; }
-  .main .mid-block {
-    display: inline-block;
-    padding: 20px; }
-    .main .mid-block .mid-block__macbook {
-      float: left; }
-    .main .mid-block .mid-block__text {
-      float: right;
-      width: 370px;
-      margin-top: 10px;
-      margin-left: 50px; }
-    .main .mid-block .portfolio__text-big {
-      width: 233px;
-      height: 30px;
-      color: #314a5b;
-      font-family: Montserrat, sans-serif;
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 46px;
-      text-transform: uppercase;
-      letter-spacing: -1.2px; }
-    .main .mid-block .portfolio__text-normal {
-      width: 223px;
-      height: 17px;
-      color: #314a5b;
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 20px;
-      margin-top: 17px;
-      margin-bottom: 29px; }
-    .main .mid-block .portfolio__text-small {
-      width: 367px;
-      height: 104px;
-      color: #9aa0ab;
-      font-family: "Open Sans", sans-serif;
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 22px;
-      margin-bottom: 45px; }
-  .main .our-team__top-text .our-team__big-text {
-    height: 24px;
-    color: #314a5b;
-    font-family: Montserrat, sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 53.86px;
-    text-transform: uppercase;
-    letter-spacing: -0.48px;
-    margin-bottom: 16px; }
-  .main .our-team__top-text .our-team__small_text {
-    width: 214px;
-    height: 17px;
-    color: #9aa0ab;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    padding-top: 10px;
-    margin-bottom: 20px; }
-  .main .our-team {
-    display: block; }
-    .main .our-team .person {
-      display: inline-block; }
-    .main .our-team .person__image {
-      float: left; }
-    .main .our-team .person__block {
-      display: inline-block; }
-      .main .our-team .person__block .person__name {
-        width: 58px;
-        height: 17px;
-        color: #314a5b;
-        font-family: Montserrat, sans-serif;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 53.86px;
-        text-transform: uppercase;
-        margin-bottom: 25px; }
-      .main .our-team .person__block .person__title {
-        width: 99px;
-        height: 15px;
-        color: #f0454c;
-        font-family: "Open Sans", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        margin-top: 11px;
-        margin-bottom: 14px; }
-      .main .our-team .person__block .person__text {
-        width: 143px;
-        height: 35px;
-        color: #9aa0ab;
-        font-family: "Open Sans", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px; }
-
-.footer {
-  width: 68%;
-  margin: auto;
-  border-top: 1px solid;
-  color: #b9c0c6;
-  margin-top: 30px; }
-  .footer .footer__icons {
-    list-style-type: none;
-    padding-top: 30px; }
-  .footer .footer__link {
-    display: inline;
-    float: left;
-    padding-right: 20px;
-    margin-right: 30px; }
-  .footer .footer__copyright {
-    float: right;
-    height: 14px;
-    color: #b9c0c6;
-    font-family: "Open Sans", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 60px;
-    margin-top: -30px; }
-
-.red-dot {
-  color: #fa5c65; }
-
-.black-dot {
-  color: #314a5b; }
+  text-decoration: none;
+}
