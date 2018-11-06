@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans");
-* {
-  margin: 0; }
+a {
+  text-decoration: none; }
 
 .btn__more {
   color: #fa5c65;
@@ -8,14 +8,17 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  text-transform: uppercase;
-  text-decoration: none; }
+  text-transform: uppercase; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
 
 .header {
   width: auto;
   background-image: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/src/images/header-bg-min.png");
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: 100%;
   height: 1075px; }
   .header .top-bar {
     width: 68%;
@@ -38,16 +41,7 @@
     list-style-type: none;
     word-spacing: 30px; }
   .header .top-bar__menu-link {
-    display: inline;
-    color: white; }
-    .header .top-bar__menu-link a {
-      color: #263742;
-      font-family: Montserrat, sans-serif;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 85px;
-      text-transform: uppercase;
-      text-decoration: none; }
+    display: inline; }
   .header .header-text {
     padding-top: 250px;
     width: 68%;
@@ -150,7 +144,7 @@
   .main .our-team__top-text .our-team__big-text {
     height: 24px;
     color: #314a5b;
-    font-family: Montserrat, sans-serif;
+    font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
     line-height: 53.86px;
@@ -216,8 +210,7 @@
   .footer .footer__link {
     display: inline;
     float: left;
-    padding-right: 20px;
-    margin-right: 30px; }
+    padding-right: 40px; }
   .footer .footer__copyright {
     float: right;
     height: 14px;
