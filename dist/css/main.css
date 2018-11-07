@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans");
-* {
-  margin: 0; }
+a {
+  text-decoration: none; }
 
+<<<<<<< HEAD
 .header {
   background: url("/images/header-bg-min.png") no-repeat;
   background-size: contain;
@@ -9,6 +10,32 @@
   height: 1057px;
   position: relative; }
   .header .top-bar .logo {
+=======
+.btn__more {
+  color: #fa5c65;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.header {
+  width: auto;
+  background-image: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/src/images/header-bg-min.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1075px; }
+  .header .top-bar {
+    width: 68%;
+    height: 75px;
+    margin: auto; }
+  .header .top-bar__logo {
+    float: left;
+>>>>>>> 815966ab07526db5a2c21329cfd91f07978be6d2
     width: 141px;
     height: 75px;
     text-align: center;
@@ -18,6 +45,7 @@
     position: absolute; }
   .header .top-bar .logo-text {
     color: white;
+<<<<<<< HEAD
     font-size: 20px;
     font-weight: 700;
     padding-left: 15px;
@@ -38,6 +66,23 @@
     .header .top-bar .links a {
       text-decoration: none;
       font-weight: 400;
+=======
+    font-family: Domine, sans-serif; }
+  .header .top-bar__menu {
+    float: right;
+    list-style-type: none;
+    word-spacing: 30px; }
+  .header .top-bar__menu-link {
+    display: inline; }
+  .header .header-text {
+    padding-top: 250px;
+    width: 68%;
+    margin: auto; }
+    .header .header-text .header__big-text {
+      width: auto;
+      height: 142px;
+      color: #314a5b;
+>>>>>>> 815966ab07526db5a2c21329cfd91f07978be6d2
       font-family: Montserrat, sans-serif;
       padding-left: 25px;
       color: #263742; }
@@ -138,6 +183,7 @@
       font-size: 15px;
       font-weight: 400;
       line-height: 22px;
+<<<<<<< HEAD
       font-family: "Open Sans", sans-serif;
       color: #9aa0ab; }
   .main .our-team {
@@ -147,6 +193,13 @@
     top: 765px;
     left: 219px; }
   .main .block-bottom-big-text {
+=======
+      margin-bottom: 45px; }
+  .main .our-team__top-text .our-team__big-text {
+    height: 24px;
+    color: #314a5b;
+    font-family: Montserrat;
+>>>>>>> 815966ab07526db5a2c21329cfd91f07978be6d2
     font-size: 32px;
     font-weight: 700;
     line-height: 54px;
@@ -196,6 +249,7 @@
     line-height: 20px; }
 
 .footer {
+<<<<<<< HEAD
   width: 1370px;
   height: 94px;
   position: relative; }
@@ -219,6 +273,23 @@
     position: absolute;
     right: 211px;
     top: 2px;
+=======
+  width: 68%;
+  margin: auto;
+  border-top: 1px solid;
+  color: #b9c0c6;
+  margin-top: 30px; }
+  .footer .footer__icons {
+    list-style-type: none;
+    padding-top: 30px; }
+  .footer .footer__link {
+    display: inline;
+    float: left;
+    padding-right: 40px; }
+  .footer .footer__copyright {
+    float: right;
+    height: 14px;
+>>>>>>> 815966ab07526db5a2c21329cfd91f07978be6d2
     color: #b9c0c6;
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
