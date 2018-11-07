@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700|Open+Sans");
+a {
+  text-decoration: none; }
+
+.btn__more {
+  color: #fa5c65;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.header {
+  width: auto;
+  background-image: url("https://raw.githubusercontent.com/artem-valkov/web-page/master/src/images/header-bg-min.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1075px; }
+  .header .top-bar {
+    width: 68%;
+    height: 75px;
+    margin: auto; }
+  .header .top-bar__logo {
+    float: left;
+    width: 141px;
+    height: 75px;
+    background-color: #fa5c65;
+    border-radius: 0 0 10px 10px;
+    text-align: center; }
+  .header .top-bar__logo-text {
+    font-size: 20px;
+    padding-top: 44px;
+    color: white;
+    font-family: Domine, sans-serif; }
+  .header .top-bar__menu {
+    float: right;
+    list-style-type: none;
+    word-spacing: 30px; }
+  .header .top-bar__menu-link {
+    display: inline; }
+  .header .header-text {
+    padding-top: 250px;
+    width: 68%;
+    margin: auto; }
+    .header .header-text .header__big-text {
+      width: auto;
+      height: 142px;
+      color: #314a5b;
+      font-family: Montserrat, sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 53px;
+      text-transform: uppercase;
+      letter-spacing: -1.44px; }
+    .header .header-text .header__small-text {
+      color: #314a5b;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 26px;
+      margin-bottom: 41px; }
+    .header .header-text .header__btn {
+      width: 172px;
+      height: 64px;
+      background-color: #fa5c65;
+      border-radius: 10px;
+      border: none;
+      color: #ffffff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 48.38px;
+      text-transform: uppercase; }
+
+.main {
+  padding-top: -55px;
+  width: 70%;
+  margin: auto; }
+  .main .top-block {
+    display: block;
+    padding: 20px; }
+    .main .top-block .skills {
+      display: inline-block; }
+    .main .top-block .skills__big-text {
+      color: #314a5b;
+      font-family: Montserrat, sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase; }
+    .main .top-block .skills__small-text {
+      width: 257px;
+      height: 60px;
+      color: #9aa0ab;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-top: 24px;
+      margin-bottom: 29px; }
+  .main .mid-block {
+    display: inline-block;
+    padding: 20px; }
+    .main .mid-block .mid-block__macbook {
+      float: left; }
+    .main .mid-block .mid-block__text {
+      float: right;
+      width: 370px;
+      margin-top: 10px;
+      margin-left: 50px; }
+    .main .mid-block .portfolio__text-big {
+      width: 233px;
+      height: 30px;
+      color: #314a5b;
+      font-family: Montserrat, sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 46px;
+      text-transform: uppercase;
+      letter-spacing: -1.2px; }
+    .main .mid-block .portfolio__text-normal {
+      width: 223px;
+      height: 17px;
+      color: #314a5b;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-top: 17px;
+      margin-bottom: 29px; }
+    .main .mid-block .portfolio__text-small {
+      width: 367px;
+      height: 104px;
+      color: #9aa0ab;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      margin-bottom: 45px; }
+  .main .our-team__top-text .our-team__big-text {
+    height: 24px;
+    color: #314a5b;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 53.86px;
+    text-transform: uppercase;
+    letter-spacing: -0.48px;
+    margin-bottom: 16px; }
+  .main .our-team__top-text .our-team__small_text {
+    width: 214px;
+    height: 17px;
+    color: #9aa0ab;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px; }
+  .main .our-team {
+    display: block; }
+    .main .our-team .person {
+      display: inline-block; }
+    .main .our-team .person__image {
+      float: left; }
+    .main .our-team .person__block {
+      display: inline-block; }
+      .main .our-team .person__block .person__name {
+        width: 58px;
+        height: 17px;
+        color: #314a5b;
+        font-family: Montserrat, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 53.86px;
+        text-transform: uppercase;
+        margin-bottom: 25px; }
+      .main .our-team .person__block .person__title {
+        width: 99px;
+        height: 15px;
+        color: #f0454c;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 11px;
+        margin-bottom: 14px; }
+      .main .our-team .person__block .person__text {
+        width: 143px;
+        height: 35px;
+        color: #9aa0ab;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px; }
+
+.footer {
+  width: 68%;
+  margin: auto;
+  border-top: 1px solid;
+  color: #b9c0c6;
+  margin-top: 30px; }
+  .footer .footer__icons {
+    list-style-type: none;
+    padding-top: 30px; }
+  .footer .footer__link {
+    display: inline;
+    float: left;
+    padding-right: 40px; }
+  .footer .footer__copyright {
+    float: right;
+    height: 14px;
+    color: #b9c0c6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-top: -30px; }
+
+.red-dot {
+  color: #fa5c65; }
+
+.black-dot {
+  color: #314a5b; }

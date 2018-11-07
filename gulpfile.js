@@ -12,7 +12,7 @@ const imagesBlob = 'src/images/**';
 const fontsBlob = 'src/fonts/**';
 const stylesBlob = 'src/css/**';
 const sassBlob = 'src/sass/**';
-const outSass = 'dist/css/';
+const outSass = 'dist/css/&&'
 
 gulp.task('default', function () {
   return runSequence('build', 'serve');
@@ -21,7 +21,7 @@ gulp.task('default', function () {
 gulp.task('build', function () {
   return runSequence(
     'cleanDist',
-    ['processStyles', 'processHtml', 'processImages', 'processFonts', 'sass']
+    ['processStyles', 'processHtml', 'processImages', 'processFonts', 'processSass']
   );
 });
 

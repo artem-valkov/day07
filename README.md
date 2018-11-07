@@ -1,2 +1,5 @@
-# day07
-https://artem-valkov.github.io/day07/dist/
+# web-page
+
+Hello!
+My web-page link:
+https://artem-valkov.github.io/web-page/dist/
